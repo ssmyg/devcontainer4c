@@ -1,5 +1,3 @@
-# 概要
-vscodeの
 
 # インストール
 ## vscodeをインストール
@@ -9,8 +7,8 @@ https://code.visualstudio.com/
 https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers
 
 ## （Widows Homeの場合、WSLをインストール）
-Widows Homeの場合、wslをインストールする必要あり
-powershellに下記を入力
+Widows Homeの場合、wslをインストールする必要があります。
+powershellに下記を入力して下さい。
 
 WSLをインストール
 
@@ -32,7 +30,6 @@ https://github.com/ssmyg/devcontainer4c
 
 git cloneがおすすめですが、
 zipファイルのダウンロードでもOK。
-
 
 
 # 使い方
@@ -72,4 +69,5 @@ F5を押すとデバッグが起動します
 
 # 参考
 下記テンプレートから作成しました。
+
 https://github.com/microsoft/vscode-remote-try-cpp
