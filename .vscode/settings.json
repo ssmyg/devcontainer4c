@@ -1,0 +1,10 @@
+{
+  // code runnerの設定
+  "code-runner.runInTerminal": true,
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.executorMap": {
+    "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt.out && $dir$fileNameWithoutExt.out",
+  },
+  // 保存時に自動整形
+	"editor.formatOnSave": true,
+}

@@ -2,13 +2,16 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Build Main",
             "type": "shell",
-            "command": "g++ -g main.cpp -o main.out",
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            }
+            "label": "c_build",
+            "command": "clang",
+            "args": [
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}.out"
+            ],
+            "group": "build"
         }
     ]
 }

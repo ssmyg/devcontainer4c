@@ -331,3 +331,10 @@ ASALocalRun/
 
 # Build output for this sample
 *.out
+
+# debug file
+*.dSYM
+
+*.code-workspace
+
+.DS_Store
