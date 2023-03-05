@@ -8,7 +8,7 @@ https://code.visualstudio.com/
 ## vscodeにdev containersプラグインをインストール
 https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers
 
-## （Widows Homeの場合）
+## （Widows Homeの場合、WSLをインストール）
 Widows Homeの場合、wslをインストールする必要あり
 powershellに下記を入力
 
