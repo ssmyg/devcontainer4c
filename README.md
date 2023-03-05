@@ -39,6 +39,7 @@ zipファイルのダウンロードでもOK。
 ## dockerを起動
 先にdockerを起動しておきます。
 右下に「Engine running」と表示されていればOK。
+
 ![docker](doc/image/docker.jpg)
 
 ## vscodeでこのリポジトリのフォルダを開く
@@ -47,6 +48,7 @@ File > Open Folder
 
 ## Reopen in Container
 右下の「Reopen in Container」を押す
+
 ![reopen](doc/image/reopen.jpg)
 
 
@@ -63,6 +65,7 @@ ctrl + alt + n（Windows）
 # デバッグ
 src/sample.cを開き、ブレークポイントを設定して、
 F5を押すとデバッグが起動します
+
 ![debug](doc/image/debug.jpg)
 
 
